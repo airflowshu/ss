@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 cd /tmp
 rm -f shadowsocks_r3.tar.gz
-curl https://github.com/airflowshu/ss/blob/main/shadowsocks_r3.tar.gz
+curl https://raw.githubusercontent.com/airflowshu/ss/main/shadowsocks_r3.tar.gz
 tar zxf shadowsocks_r3.tar.gz
 
 # install shadowsocks ss-redir to /data/usr/sbin
